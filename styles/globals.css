@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles/globals.css */
+
+/* Defining background and foreground colors as CSS variables */
+:root {
+  --background: #000000;  /* Black background */
+  --foreground: #ffffff;  /* White text */
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
